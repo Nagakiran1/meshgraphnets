@@ -20,7 +20,7 @@
 import torch
 import common
 
-device = torch.device('cuda')
+device = torch.device('cpu')
 
 
 def _rollout(model, initial_state, num_steps):

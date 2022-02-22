@@ -1,0 +1,311 @@
+2022-02-19 17:16:22,407 - =========================================================
+2022-02-19 17:16:22,407 - Start new run in /content/meshgraphnets/output/flag_simple/Sat-Feb-19-17-16-22-2022/1
+2022-02-19 17:16:22,407 - =========================================================
+2022-02-19 17:16:22,408 - Program started at time Sat Feb 19 17:16:22 2022
+2022-02-19 17:16:22,408 - Start training......
+2022-02-19 17:16:24,805 - 
+2022-02-19 17:16:24,805 - =======================Run Summary=======================
+2022-02-19 17:16:24,805 - Simulation task is cloth simulation
+2022-02-19 17:16:24,805 - Mode is all
+2022-02-19 17:16:24,805 - Evaluation set is valid
+2022-02-19 17:16:24,805 - Train and/or evaluation configuration are 4 epochs, 15 trajectories each epoch, number of rollouts is 10
+2022-02-19 17:16:24,806 - Core model is encode_process_decode
+2022-02-19 17:16:24,806 - Message passing aggregator is sum
+2022-02-19 17:16:24,806 - Message passing steps are 1
+2022-02-19 17:16:24,806 - Attention used is False
+2022-02-19 17:16:24,806 - Ripple used is False
+2022-02-19 17:16:24,806 - Run output directory is /content/meshgraphnets/output/flag_simple/Sat-Feb-19-17-16-22-2022/1
+2022-02-19 17:16:24,806 - =========================================================
+2022-02-19 17:16:24,806 - 
+2022-02-19 17:16:24,808 - Epoch 1/4
+2022-02-19 17:16:24,808 - Training with 1 GPUs
+2022-02-19 17:16:24,808 -     trajectory index 1/15
+2022-02-19 17:16:34,927 -         trajectory_loss
+2022-02-19 17:16:34,946 -         tensor(1008.9100)
+2022-02-19 17:16:34,985 -     trajectory index 2/15
+2022-02-19 17:16:44,923 -         trajectory_loss
+2022-02-19 17:16:44,924 -         tensor(621.9522)
+2022-02-19 17:16:44,948 -     trajectory index 3/15
+2022-02-19 17:16:54,838 -         trajectory_loss
+2022-02-19 17:16:54,839 -         tensor(616.7656)
+2022-02-19 17:16:54,864 -     trajectory index 4/15
+2022-02-19 17:17:04,800 -         trajectory_loss
+2022-02-19 17:17:04,801 -         tensor(572.0790)
+2022-02-19 17:17:04,827 -     trajectory index 5/15
+2022-02-19 17:17:14,779 -         trajectory_loss
+2022-02-19 17:17:14,779 -         tensor(432.7063)
+2022-02-19 17:17:14,804 -     trajectory index 6/15
+2022-02-19 17:17:24,693 -         trajectory_loss
+2022-02-19 17:17:24,694 -         tensor(530.8640)
+2022-02-19 17:17:24,719 -     trajectory index 7/15
+2022-02-19 17:17:34,634 -         trajectory_loss
+2022-02-19 17:17:34,635 -         tensor(410.2421)
+2022-02-19 17:17:34,659 -     trajectory index 8/15
+2022-02-19 17:17:44,576 -         trajectory_loss
+2022-02-19 17:17:44,577 -         tensor(374.4418)
+2022-02-19 17:17:44,601 -     trajectory index 9/15
+2022-02-19 17:17:54,499 -         trajectory_loss
+2022-02-19 17:17:54,499 -         tensor(453.6110)
+2022-02-19 17:17:54,525 -     trajectory index 10/15
+2022-02-19 17:18:04,438 -         trajectory_loss
+2022-02-19 17:18:04,438 -         tensor(590.2860)
+2022-02-19 17:18:04,464 -     trajectory index 11/15
+2022-02-19 17:18:14,392 -         trajectory_loss
+2022-02-19 17:18:14,393 -         tensor(558.1415)
+2022-02-19 17:18:14,420 -     trajectory index 12/15
+2022-02-19 17:18:24,327 -         trajectory_loss
+2022-02-19 17:18:24,328 -         tensor(328.1197)
+2022-02-19 17:18:24,353 -     trajectory index 13/15
+2022-02-19 17:18:34,289 -         trajectory_loss
+2022-02-19 17:18:34,290 -         tensor(484.2408)
+2022-02-19 17:18:34,315 -     trajectory index 14/15
+2022-02-19 17:18:44,244 -         trajectory_loss
+2022-02-19 17:18:44,245 -         tensor(631.8143)
+2022-02-19 17:18:44,272 -     trajectory index 15/15
+2022-02-19 17:18:54,210 -         trajectory_loss
+2022-02-19 17:18:54,211 -         tensor(312.1807)
+2022-02-19 17:18:54,235 - Current mean of epoch training losses
+2022-02-19 17:18:54,236 - tensor(7926.3555)
+2022-02-19 17:18:54,259 - Epoch 2/4
+2022-02-19 17:18:54,260 - Training with 1 GPUs
+2022-02-19 17:18:54,260 -     trajectory index 1/15
+2022-02-19 17:19:04,192 -         trajectory_loss
+2022-02-19 17:19:04,193 -         tensor(486.4169)
+2022-02-19 17:19:04,216 -     trajectory index 2/15
+2022-02-19 17:19:15,727 -         trajectory_loss
+2022-02-19 17:19:15,728 -         tensor(474.4577)
+2022-02-19 17:19:15,754 -     trajectory index 3/15
+2022-02-19 17:19:25,653 -         trajectory_loss
+2022-02-19 17:19:25,654 -         tensor(604.7879)
+2022-02-19 17:19:25,679 -     trajectory index 4/15
+2022-02-19 17:19:35,587 -         trajectory_loss
+2022-02-19 17:19:35,588 -         tensor(569.5931)
+2022-02-19 17:19:35,615 -     trajectory index 5/15
+2022-02-19 17:19:45,573 -         trajectory_loss
+2022-02-19 17:19:45,573 -         tensor(327.8242)
+2022-02-19 17:19:45,598 -     trajectory index 6/15
+2022-02-19 17:19:55,524 -         trajectory_loss
+2022-02-19 17:19:55,525 -         tensor(230.6229)
+2022-02-19 17:19:55,550 -     trajectory index 7/15
+2022-02-19 17:20:05,450 -         trajectory_loss
+2022-02-19 17:20:05,450 -         tensor(418.7209)
+2022-02-19 17:20:05,476 -     trajectory index 8/15
+2022-02-19 17:20:15,389 -         trajectory_loss
+2022-02-19 17:20:15,390 -         tensor(416.4920)
+2022-02-19 17:20:15,419 -     trajectory index 9/15
+2022-02-19 17:20:25,376 -         trajectory_loss
+2022-02-19 17:20:25,377 -         tensor(464.9285)
+2022-02-19 17:20:25,405 -     trajectory index 10/15
+2022-02-19 17:20:35,322 -         trajectory_loss
+2022-02-19 17:20:35,323 -         tensor(415.3244)
+2022-02-19 17:20:35,349 -     trajectory index 11/15
+2022-02-19 17:20:46,004 -         trajectory_loss
+2022-02-19 17:20:46,005 -         tensor(255.3317)
+2022-02-19 17:20:46,031 -     trajectory index 12/15
+2022-02-19 17:20:56,012 -         trajectory_loss
+2022-02-19 17:20:56,013 -         tensor(418.3434)
+2022-02-19 17:20:56,038 -     trajectory index 13/15
+2022-02-19 17:21:06,002 -         trajectory_loss
+2022-02-19 17:21:06,002 -         tensor(357.4496)
+2022-02-19 17:21:06,029 -     trajectory index 14/15
+2022-02-19 17:21:16,014 -         trajectory_loss
+2022-02-19 17:21:16,015 -         tensor(364.0084)
+2022-02-19 17:21:16,042 -     trajectory index 15/15
+2022-02-19 17:21:26,019 -         trajectory_loss
+2022-02-19 17:21:26,020 -         tensor(464.1780)
+2022-02-19 17:21:26,046 - Current mean of epoch training losses
+2022-02-19 17:21:26,047 - tensor(7097.4175)
+2022-02-19 17:21:26,072 - Epoch 3/4
+2022-02-19 17:21:26,072 - Training with 1 GPUs
+2022-02-19 17:21:26,073 -     trajectory index 1/15
+2022-02-19 17:21:36,068 -         trajectory_loss
+2022-02-19 17:21:36,068 -         tensor(347.8744)
+2022-02-19 17:21:36,094 -     trajectory index 2/15
+2022-02-19 17:21:46,036 -         trajectory_loss
+2022-02-19 17:21:46,037 -         tensor(494.0711)
+2022-02-19 17:21:46,062 -     trajectory index 3/15
+2022-02-19 17:21:55,960 -         trajectory_loss
+2022-02-19 17:21:55,961 -         tensor(507.6400)
+2022-02-19 17:21:55,988 -     trajectory index 4/15
+2022-02-19 17:22:05,932 -         trajectory_loss
+2022-02-19 17:22:05,933 -         tensor(538.7717)
+2022-02-19 17:22:05,959 -     trajectory index 5/15
+2022-02-19 17:22:15,875 -         trajectory_loss
+2022-02-19 17:22:15,876 -         tensor(353.4097)
+2022-02-19 17:22:15,901 -     trajectory index 6/15
+2022-02-19 17:22:25,773 -         trajectory_loss
+2022-02-19 17:22:25,774 -         tensor(457.8355)
+2022-02-19 17:22:25,800 -     trajectory index 7/15
+2022-02-19 17:22:35,717 -         trajectory_loss
+2022-02-19 17:22:35,718 -         tensor(301.7903)
+2022-02-19 17:22:35,743 -     trajectory index 8/15
+2022-02-19 17:22:45,676 -         trajectory_loss
+2022-02-19 17:22:45,677 -         tensor(406.1737)
+2022-02-19 17:22:45,701 -     trajectory index 9/15
+2022-02-19 17:22:55,610 -         trajectory_loss
+2022-02-19 17:22:55,611 -         tensor(626.0994)
+2022-02-19 17:22:55,635 -     trajectory index 10/15
+2022-02-19 17:23:05,536 -         trajectory_loss
+2022-02-19 17:23:05,536 -         tensor(319.3874)
+2022-02-19 17:23:05,561 -     trajectory index 11/15
+2022-02-19 17:23:15,446 -         trajectory_loss
+2022-02-19 17:23:15,447 -         tensor(408.5686)
+2022-02-19 17:23:15,475 -     trajectory index 12/15
+2022-02-19 17:23:25,363 -         trajectory_loss
+2022-02-19 17:23:25,363 -         tensor(437.3487)
+2022-02-19 17:23:25,389 -     trajectory index 13/15
+2022-02-19 17:23:35,320 -         trajectory_loss
+2022-02-19 17:23:35,320 -         tensor(349.1717)
+2022-02-19 17:23:35,346 -     trajectory index 14/15
+2022-02-19 17:23:45,308 -         trajectory_loss
+2022-02-19 17:23:45,308 -         tensor(561.1085)
+2022-02-19 17:23:45,334 -     trajectory index 15/15
+2022-02-19 17:23:55,296 -         trajectory_loss
+2022-02-19 17:23:55,296 -         tensor(403.4050)
+2022-02-19 17:23:55,322 - Current mean of epoch training losses
+2022-02-19 17:23:55,323 - tensor(6902.4966)
+2022-02-19 17:23:55,349 - Epoch 4/4
+2022-02-19 17:23:55,350 - Training with 1 GPUs
+2022-02-19 17:23:55,350 -     trajectory index 1/15
+2022-02-19 17:24:05,253 -         trajectory_loss
+2022-02-19 17:24:05,254 -         tensor(364.9277)
+2022-02-19 17:24:05,279 -     trajectory index 2/15
+2022-02-19 17:24:15,187 -         trajectory_loss
+2022-02-19 17:24:15,188 -         tensor(438.8442)
+2022-02-19 17:24:15,217 -     trajectory index 3/15
+2022-02-19 17:24:25,103 -         trajectory_loss
+2022-02-19 17:24:25,104 -         tensor(313.5783)
+2022-02-19 17:24:25,129 -     trajectory index 4/15
+2022-02-19 17:24:35,031 -         trajectory_loss
+2022-02-19 17:24:35,032 -         tensor(453.2477)
+2022-02-19 17:24:35,058 -     trajectory index 5/15
+2022-02-19 17:24:44,983 -         trajectory_loss
+2022-02-19 17:24:44,984 -         tensor(452.0387)
+2022-02-19 17:24:45,011 -     trajectory index 6/15
+2022-02-19 17:24:54,935 -         trajectory_loss
+2022-02-19 17:24:54,936 -         tensor(483.0221)
+2022-02-19 17:24:54,961 -     trajectory index 7/15
+2022-02-19 17:25:04,875 -         trajectory_loss
+2022-02-19 17:25:04,875 -         tensor(333.2818)
+2022-02-19 17:25:04,901 -     trajectory index 8/15
+2022-02-19 17:25:14,794 -         trajectory_loss
+2022-02-19 17:25:14,795 -         tensor(425.0152)
+2022-02-19 17:25:14,821 -     trajectory index 9/15
+2022-02-19 17:25:24,734 -         trajectory_loss
+2022-02-19 17:25:24,734 -         tensor(282.1189)
+2022-02-19 17:25:24,759 -     trajectory index 10/15
+2022-02-19 17:25:34,726 -         trajectory_loss
+2022-02-19 17:25:34,727 -         tensor(377.4542)
+2022-02-19 17:25:34,753 -     trajectory index 11/15
+2022-02-19 17:25:44,718 -         trajectory_loss
+2022-02-19 17:25:44,719 -         tensor(585.1247)
+2022-02-19 17:25:44,753 -     trajectory index 12/15
+2022-02-19 17:25:54,902 -         trajectory_loss
+2022-02-19 17:25:54,903 -         tensor(302.7334)
+2022-02-19 17:25:54,931 -     trajectory index 13/15
+2022-02-19 17:26:05,018 -         trajectory_loss
+2022-02-19 17:26:05,018 -         tensor(381.6111)
+2022-02-19 17:26:05,047 -     trajectory index 14/15
+2022-02-19 17:26:15,066 -         trajectory_loss
+2022-02-19 17:26:15,066 -         tensor(410.2693)
+2022-02-19 17:26:15,091 -     trajectory index 15/15
+2022-02-19 17:26:25,209 -         trajectory_loss
+2022-02-19 17:26:25,210 -         tensor(323.7342)
+2022-02-19 17:26:25,238 - Current mean of epoch training losses
+2022-02-19 17:26:25,238 - tensor(6658.6230)
+2022-02-19 17:26:25,305 - Finished training......
+2022-02-19 17:26:25,306 - Start evaluating......
+2022-02-19 17:26:25,310 - Evaluating trajectory 1
+2022-02-19 17:26:29,274 -     trajectory evaluation mse loss
+2022-02-19 17:26:29,276 -     tensor(21.0415, device='cuda:0')
+2022-02-19 17:26:29,276 -     trajectory evaluation l1 loss
+2022-02-19 17:26:29,277 -     tensor(3.4263, device='cuda:0')
+2022-02-19 17:26:29,277 - Evaluating trajectory 2
+2022-02-19 17:26:33,236 -     trajectory evaluation mse loss
+2022-02-19 17:26:33,237 -     tensor(43.2616, device='cuda:0')
+2022-02-19 17:26:33,237 -     trajectory evaluation l1 loss
+2022-02-19 17:26:33,238 -     tensor(5.0334, device='cuda:0')
+2022-02-19 17:26:33,238 - Evaluating trajectory 3
+2022-02-19 17:26:37,211 -     trajectory evaluation mse loss
+2022-02-19 17:26:37,213 -     tensor(21.1468, device='cuda:0')
+2022-02-19 17:26:37,213 -     trajectory evaluation l1 loss
+2022-02-19 17:26:37,214 -     tensor(3.5340, device='cuda:0')
+2022-02-19 17:26:37,214 - Evaluating trajectory 4
+2022-02-19 17:26:41,177 -     trajectory evaluation mse loss
+2022-02-19 17:26:41,178 -     tensor(18.4858, device='cuda:0')
+2022-02-19 17:26:41,178 -     trajectory evaluation l1 loss
+2022-02-19 17:26:41,179 -     tensor(3.2218, device='cuda:0')
+2022-02-19 17:26:41,180 - Evaluating trajectory 5
+2022-02-19 17:26:45,117 -     trajectory evaluation mse loss
+2022-02-19 17:26:45,118 -     tensor(23.7738, device='cuda:0')
+2022-02-19 17:26:45,118 -     trajectory evaluation l1 loss
+2022-02-19 17:26:45,119 -     tensor(3.9890, device='cuda:0')
+2022-02-19 17:26:45,119 - Evaluating trajectory 6
+2022-02-19 17:26:49,021 -     trajectory evaluation mse loss
+2022-02-19 17:26:49,022 -     tensor(17.9057, device='cuda:0')
+2022-02-19 17:26:49,022 -     trajectory evaluation l1 loss
+2022-02-19 17:26:49,023 -     tensor(3.0936, device='cuda:0')
+2022-02-19 17:26:49,023 - Evaluating trajectory 7
+2022-02-19 17:26:52,904 -     trajectory evaluation mse loss
+2022-02-19 17:26:52,905 -     tensor(12.3371, device='cuda:0')
+2022-02-19 17:26:52,905 -     trajectory evaluation l1 loss
+2022-02-19 17:26:52,906 -     tensor(2.6363, device='cuda:0')
+2022-02-19 17:26:52,906 - Evaluating trajectory 8
+2022-02-19 17:26:56,814 -     trajectory evaluation mse loss
+2022-02-19 17:26:56,815 -     tensor(24.9285, device='cuda:0')
+2022-02-19 17:26:56,815 -     trajectory evaluation l1 loss
+2022-02-19 17:26:56,816 -     tensor(3.7437, device='cuda:0')
+2022-02-19 17:26:56,816 - Evaluating trajectory 9
+2022-02-19 17:27:00,704 -     trajectory evaluation mse loss
+2022-02-19 17:27:00,705 -     tensor(50.8168, device='cuda:0')
+2022-02-19 17:27:00,705 -     trajectory evaluation l1 loss
+2022-02-19 17:27:00,706 -     tensor(5.5037, device='cuda:0')
+2022-02-19 17:27:00,706 - Evaluating trajectory 10
+2022-02-19 17:27:04,609 -     trajectory evaluation mse loss
+2022-02-19 17:27:04,610 -     tensor(25.4930, device='cuda:0')
+2022-02-19 17:27:04,610 -     trajectory evaluation l1 loss
+2022-02-19 17:27:04,611 -     tensor(4.0277, device='cuda:0')
+2022-02-19 17:27:04,611 - mean mse loss of 10 rollout trajectories
+2022-02-19 17:27:04,612 - tensor(25.9191)
+2022-02-19 17:27:04,612 - mean l1 loss 10 rollout trajectories
+2022-02-19 17:27:04,613 - tensor(3.8209)
+2022-02-19 17:27:05,557 - Finished evaluating......
+2022-02-19 17:27:05,563 - Program ended at time Sat Feb 19 17:27:05 2022
+2022-02-19 17:27:05,565 - 
+2022-02-19 17:27:05,565 - =======================Run Summary=======================
+2022-02-19 17:27:05,566 - Simulation task is cloth simulation
+2022-02-19 17:27:05,566 - Mode is all
+2022-02-19 17:27:05,566 - Evaluation set is valid
+2022-02-19 17:27:05,566 - Train and/or evaluation configuration are 4 epochs, 15 trajectories each epoch, number of rollouts is 10
+2022-02-19 17:27:05,566 - Core model is encode_process_decode
+2022-02-19 17:27:05,566 - Message passing aggregator is sum
+2022-02-19 17:27:05,567 - Message passing steps are 1
+2022-02-19 17:27:05,567 - Attention used is False
+2022-02-19 17:27:05,567 - Ripple used is False
+2022-02-19 17:27:05,567 - Run output directory is /content/meshgraphnets/output/flag_simple/Sat-Feb-19-17-16-22-2022/1
+2022-02-19 17:27:05,567 - =========================================================
+2022-02-19 17:27:05,567 - 
+2022-02-19 17:27:05,567 - Run total elapsed time 0:10:43.157217
+
+2022-02-19 17:27:05,568 - --------------------train loss record--------------------
+2022-02-19 17:27:05,568 - ('train_total_loss', tensor(26634.4922))
+2022-02-19 17:27:05,578 - ('train_mean_epoch_loss', 6658.623046875)
+2022-02-19 17:27:05,578 - ('train_max_epoch_loss', 7926.35546875)
+2022-02-19 17:27:05,579 - ('train_min_epoch_loss', 5927.001953125)
+2022-02-19 17:27:05,579 - ('train_epoch_losses', [tensor(7926.3555), tensor(6268.4795), tensor(6512.6548), tensor(5927.0020)])
+2022-02-19 17:27:05,581 - ('all_trajectory_train_losses', [tensor(1008.9100), tensor(621.9522), tensor(616.7656), tensor(572.0790), tensor(432.7063), tensor(530.8640), tensor(410.2421), tensor(374.4418), tensor(453.6110), tensor(590.2860), tensor(558.1415), tensor(328.1197), tensor(484.2408), tensor(631.8143), tensor(312.1807), tensor(486.4169), tensor(474.4577), tensor(604.7879), tensor(569.5931), tensor(327.8242), tensor(230.6229), tensor(418.7209), tensor(416.4920), tensor(464.9285), tensor(415.3244), tensor(255.3317), tensor(418.3434), tensor(357.4496), tensor(364.0084), tensor(464.1780), tensor(347.8744), tensor(494.0711), tensor(507.6400), tensor(538.7717), tensor(353.4097), tensor(457.8355), tensor(301.7903), tensor(406.1737), tensor(626.0994), tensor(319.3874), tensor(408.5686), tensor(437.3487), tensor(349.1717), tensor(561.1085), tensor(403.4050), tensor(364.9277), tensor(438.8442), tensor(313.5783), tensor(453.2477), tensor(452.0387), tensor(483.0221), tensor(333.2818), tensor(425.0152), tensor(282.1189), tensor(377.4542), tensor(585.1247), tensor(302.7334), tensor(381.6111), tensor(410.2693), tensor(323.7342)])
+2022-02-19 17:27:05,613 - ('is_train_break', False)
+2022-02-19 17:27:05,613 - ---------------------------------------------------------
+2022-02-19 17:27:05,614 - 
+2022-02-19 17:27:05,614 - --------------------eval loss record---------------------
+2022-02-19 17:27:05,616 - ('eval_total_mse_loss', 259.19061279296875)
+2022-02-19 17:27:05,616 - ('eval_total_l1_loss', 38.209476470947266)
+2022-02-19 17:27:05,616 - ('eval_mean_mse_loss', 25.9190616607666)
+2022-02-19 17:27:05,616 - ('eval_max_mse_loss', 50.816776275634766)
+2022-02-19 17:27:05,616 - ('eval_min_mse_loss', 12.337096214294434)
+2022-02-19 17:27:05,616 - ('eval_mean_l1_loss', 3.8209476470947266)
+2022-02-19 17:27:05,617 - ('eval_max_l1_loss', 5.503693580627441)
+2022-02-19 17:27:05,617 - ('eval_min_l1_loss', 2.636326551437378)
+2022-02-19 17:27:05,617 - ('eval_mse_losses', [tensor(21.0415), tensor(43.2616), tensor(21.1468), tensor(18.4858), tensor(23.7738), tensor(17.9057), tensor(12.3371), tensor(24.9285), tensor(50.8168), tensor(25.4930)])
+2022-02-19 17:27:05,622 - ('eval_l1_losses', [tensor(3.4263), tensor(5.0334), tensor(3.5340), tensor(3.2218), tensor(3.9890), tensor(3.0936), tensor(2.6363), tensor(3.7437), tensor(5.5037), tensor(4.0277)])
+2022-02-19 17:27:05,627 - ---------------------------------------------------------

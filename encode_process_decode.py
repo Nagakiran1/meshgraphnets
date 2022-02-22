@@ -33,7 +33,7 @@ EdgeSet = collections.namedtuple('EdgeSet', ['name', 'features', 'senders',
 MultiGraph = collections.namedtuple('Graph', ['node_features', 'edge_sets'])
 MultiGraphWithPos = collections.namedtuple('Graph', ['node_features', 'edge_sets', 'target_feature', 'mesh_pos', 'model_type'])
 
-device = torch.device('cuda')
+device = torch.device('cpu')
 
 
 class LazyMLP(nn.Module):
@@ -150,6 +150,23 @@ class GraphNetBlock(nn.Module):
                     self.unsorted_segment_operation(edge_set.features, edge_set.receivers, num_nodes,
                                                     operation=self.message_passing_aggregator))
         features = torch.cat(features, dim=-1)
+
+        import time
+        t1 = time.time()
+        self.node_model(features)
+        print('time taken for node model  -  ', time.time()-t1)
+
+        import onnxruntime
+        ort_session = onnxruntime.InferenceSession("node_model.onnx")
+        def to_numpy(tensor):
+            return tensor.detach().cpu().numpy() if tensor.requires_grad else tensor.cpu().numpy()
+        # compute ONNX Runtime output prediction
+        ort_inputs = {ort_session.get_inputs()[0].name: to_numpy(features)}
+
+
+        t1 = time.time()
+        ort_outs = ort_session.run(None, ort_inputs)
+        print('time taken for onnx model  -  ', time.time()-t1)
         return self.node_model(features)
 
     def forward(self, graph):

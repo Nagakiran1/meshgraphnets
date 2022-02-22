@@ -27,7 +27,7 @@ EdgeSet = collections.namedtuple('EdgeSet', ['name', 'features', 'senders',
                                              'receivers'])
 MultiGraph = collections.namedtuple('Graph', ['node_features', 'edge_sets'])
 
-device = torch.device('cuda')
+device = torch.device('cpu')
 
 
 class LazyMLP(nn.Module):

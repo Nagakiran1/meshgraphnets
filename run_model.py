@@ -54,7 +54,7 @@ import matplotlib
 matplotlib.use('AGG')
 import matplotlib.pyplot as plt
 
-device = torch.device('cuda')
+device = torch.device('cpu')
 
 # train and evaluation configuration
 FLAGS = flags.FLAGS
@@ -82,7 +82,6 @@ flags.DEFINE_boolean('attention', False, 'whether attention is used or not')
 # ripple method configuration
 '''
 ripple_used defines whether ripple is used, if not, core model of original paper will be used
-
 ripple_generation defines how the ripples are generated:
     equal_size: all ripples have almost equal size of nodes
     gradient: ripples are generated according to node feature similarity
@@ -92,7 +91,6 @@ ripple_node_selection defines how the nodes are selected from each ripple:
     random: a specific number of nodes are selected randomly from each ripple
     all: all nodes of the ripple are selected
     top: a specific number of nodes with the most influential features are selected
-
 ripple_node_connection defines how the selected nodes of each ripple connect with each other to propagate message faster:
     most_influential: the most influential node connects all the other selected nodes
     fully_connected: all the selected nodes are connected with each other
@@ -564,7 +562,7 @@ def prepare_files_and_directories(last_run_dir, output_dir):
         run_step_dir = os.path.join(run_dir, run_step_dir)
 
     # make all the necessary directories
-    checkpoint_dir = os.path.join(run_step_dir, 'checkpoint')
+    checkpoint_dir = os.path.join(r'C:\Users\nagak\Projects\mesh\mgn-mark\meshgraphnets\output\flag_simple\Sat-Feb-19-17-16-22-2022\1', 'checkpoint')
     log_dir = os.path.join(run_step_dir, 'log')
     rollout_dir = os.path.join(run_step_dir, 'rollout')
     Path(checkpoint_dir).mkdir(parents=True, exist_ok=True)
@@ -643,7 +641,7 @@ def main(argv):
 
     # setup directory structure for saving checkpoint, train configuration, rollout result and log
     root_dir = pathlib.Path(__file__).parent.resolve()
-    dataset_dir = os.path.join('/home/temp_store/ruoheng_ma', 'data', dataset_name)
+    dataset_dir = os.path.join(r'C:\Users\nagak\Projects\mesh\project-siml-main\meshgraphnets-torch\datasets', dataset_name)
     output_dir = os.path.join(root_dir, 'output', dataset_name)
     run_step_dir = prepare_files_and_directories(last_run_dir, output_dir)
     checkpoint_dir = os.path.join(run_step_dir, 'checkpoint')

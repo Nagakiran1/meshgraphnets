@@ -1,0 +1,31 @@
+2022-02-21 14:27:11,041 - =========================================================
+2022-02-21 14:27:11,042 - Start new run in C:\Users\nagak\Projects\mesh\mgn-mark\meshgraphnets\output\flag_simple\Mon-Feb-21-14-27-11-2022\1
+2022-02-21 14:27:11,043 - =========================================================
+2022-02-21 14:27:11,045 - Program started at time Mon Feb 21 14:27:11 2022
+2022-02-21 14:27:11,046 - Start training......
+2022-02-21 14:27:11,063 - 
+2022-02-21 14:27:11,064 - =======================Run Summary=======================
+2022-02-21 14:27:11,066 - Simulation task is cloth simulation
+2022-02-21 14:27:11,067 - Mode is eval
+2022-02-21 14:27:11,068 - Evaluation set is valid
+2022-02-21 14:27:11,070 - Train and/or evaluation configuration are 4 epochs, 15 trajectories each epoch, number of rollouts is 10
+2022-02-21 14:27:11,072 - Core model is encode_process_decode
+2022-02-21 14:27:11,073 - Message passing aggregator is sum
+2022-02-21 14:27:11,074 - Message passing steps are 1
+2022-02-21 14:27:11,075 - Attention used is False
+2022-02-21 14:27:11,076 - Ripple used is False
+2022-02-21 14:27:11,076 - Run output directory is C:\Users\nagak\Projects\mesh\mgn-mark\meshgraphnets\output\flag_simple\Mon-Feb-21-14-27-11-2022\1
+2022-02-21 14:27:11,077 - =========================================================
+2022-02-21 14:27:11,078 - 
+2022-02-21 14:27:11,079 - Start evaluating......
+2022-02-21 14:27:11,087 - Evaluating trajectory 1
+2022-02-21 14:29:02,086 -     trajectory evaluation mse loss
+2022-02-21 14:29:02,089 -     tensor(13.1526)
+2022-02-21 14:29:02,090 -     trajectory evaluation l1 loss
+2022-02-21 14:29:02,092 -     tensor(2.3735)
+2022-02-21 14:29:02,093 - Evaluating trajectory 2
+2022-02-21 14:31:05,333 -     trajectory evaluation mse loss
+2022-02-21 14:31:05,334 -     tensor(14.6147)
+2022-02-21 14:31:05,335 -     trajectory evaluation l1 loss
+2022-02-21 14:31:05,336 -     tensor(2.4351)
+2022-02-21 14:31:05,337 - Evaluating trajectory 3

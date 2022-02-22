@@ -1,0 +1,22 @@
+2022-02-19 17:13:10,974 - =========================================================
+2022-02-19 17:13:10,974 - Start new run in /content/meshgraphnets/output/flag_simple/Sat-Feb-19-17-13-10-2022/1
+2022-02-19 17:13:10,974 - =========================================================
+2022-02-19 17:13:10,975 - Program started at time Sat Feb 19 17:13:10 2022
+2022-02-19 17:13:10,975 - Start training......
+2022-02-19 17:13:13,363 - 
+2022-02-19 17:13:13,363 - =======================Run Summary=======================
+2022-02-19 17:13:13,363 - Simulation task is deform simulation
+2022-02-19 17:13:13,364 - Mode is all
+2022-02-19 17:13:13,364 - Evaluation set is valid
+2022-02-19 17:13:13,364 - Train and/or evaluation configuration are 4 epochs, 15 trajectories each epoch, number of rollouts is 10
+2022-02-19 17:13:13,364 - Core model is encode_process_decode
+2022-02-19 17:13:13,364 - Message passing aggregator is sum
+2022-02-19 17:13:13,364 - Message passing steps are 1
+2022-02-19 17:13:13,364 - Attention used is False
+2022-02-19 17:13:13,364 - Ripple used is False
+2022-02-19 17:13:13,365 - Run output directory is /content/meshgraphnets/output/flag_simple/Sat-Feb-19-17-13-10-2022/1
+2022-02-19 17:13:13,365 - =========================================================
+2022-02-19 17:13:13,365 - 
+2022-02-19 17:13:13,366 - Epoch 1/4
+2022-02-19 17:13:13,366 - Training with 1 GPUs
+2022-02-19 17:13:13,367 -     trajectory index 1/15

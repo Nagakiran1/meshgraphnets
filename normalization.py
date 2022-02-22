@@ -21,7 +21,7 @@
 import torch
 import torch.nn as nn
 
-device = torch.device('cuda')
+device = torch.device('cpu')
 
 
 # class Normalizer(snt.AbstractModule):

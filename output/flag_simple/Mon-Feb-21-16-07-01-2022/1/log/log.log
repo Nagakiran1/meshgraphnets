@@ -1,0 +1,21 @@
+2022-02-21 16:07:01,218 - =========================================================
+2022-02-21 16:07:01,220 - Start new run in C:\Users\nagak\Projects\mesh\mgn-mark\meshgraphnets\output\flag_simple\Mon-Feb-21-16-07-01-2022\1
+2022-02-21 16:07:01,221 - =========================================================
+2022-02-21 16:07:01,223 - Program started at time Mon Feb 21 16:07:01 2022
+2022-02-21 16:07:01,224 - Start training......
+2022-02-21 16:07:01,242 - 
+2022-02-21 16:07:01,242 - =======================Run Summary=======================
+2022-02-21 16:07:01,242 - Simulation task is cloth simulation
+2022-02-21 16:07:01,244 - Mode is eval
+2022-02-21 16:07:01,245 - Evaluation set is valid
+2022-02-21 16:07:01,246 - Train and/or evaluation configuration are 4 epochs, 15 trajectories each epoch, number of rollouts is 10
+2022-02-21 16:07:01,247 - Core model is encode_process_decode
+2022-02-21 16:07:01,247 - Message passing aggregator is sum
+2022-02-21 16:07:01,247 - Message passing steps are 1
+2022-02-21 16:07:01,249 - Attention used is False
+2022-02-21 16:07:01,250 - Ripple used is False
+2022-02-21 16:07:01,251 - Run output directory is C:\Users\nagak\Projects\mesh\mgn-mark\meshgraphnets\output\flag_simple\Mon-Feb-21-16-07-01-2022\1
+2022-02-21 16:07:01,251 - =========================================================
+2022-02-21 16:07:01,251 - 
+2022-02-21 16:07:01,252 - Start evaluating......
+2022-02-21 16:07:01,258 - Evaluating trajectory 1
